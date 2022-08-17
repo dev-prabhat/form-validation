@@ -28,7 +28,6 @@ const useFrom = () => {
     }
 
     const handleChange = (e) => {
-        e.persist()
 
         let name = e.target.name
         let val = e.target.value
